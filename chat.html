@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice AI</title>
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#start-btn {
+  display: block;
+  margin: 20px auto;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#start-btn:hover {
+  background-color: #3e8e41;
+}
+
+#status {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+#response {
+  font-size: 18px;
+  color: #666;
+  font-weight: bold;
+}
+    </style>
+    
+    
+</head>
+<body>
+    <h1>Voice AI Example</h1>
+    <button id="start-btn">Start Listening</button>
+    <p id="status">Press the button and speak...</p>
+    <p id="response"></p>
+
+    <script src="chat.js"></script>
+</body>
+</html>
